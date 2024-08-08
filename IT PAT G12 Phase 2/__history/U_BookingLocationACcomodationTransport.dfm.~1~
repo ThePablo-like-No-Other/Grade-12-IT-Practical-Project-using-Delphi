@@ -1,0 +1,248 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 592
+  ClientWidth = 877
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 8
+    Width = 869
+    Height = 584
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 40
+      Top = 24
+      Width = 37
+      Height = 13
+      Caption = 'country'
+    end
+    object TLabel
+      Left = 424
+      Top = 24
+      Width = 89
+      Height = 13
+      Caption = 'LOCAL Destination'
+    end
+    object Label2: TLabel
+      Left = 48
+      Top = 88
+      Width = 126
+      Height = 13
+      Caption = 'Accomidation Requirmenst'
+    end
+    object Label3: TLabel
+      Left = 40
+      Top = 120
+      Width = 66
+      Height = 13
+      Caption = 'guest amount'
+    end
+    object Label4: TLabel
+      Left = 46
+      Top = 168
+      Width = 100
+      Height = 13
+      Caption = 'type of accomidation'
+    end
+    object Label5: TLabel
+      Left = 75
+      Top = 280
+      Width = 151
+      Height = 13
+      Caption = 'select enter booking from seen '
+    end
+    object Label6: TLabel
+      Left = 208
+      Top = 456
+      Width = 53
+      Height = 13
+      Caption = 'type of car'
+    end
+    object Label7: TLabel
+      Left = 328
+      Top = 464
+      Width = 57
+      Height = 13
+      Caption = 'brand name'
+    end
+    object Label8: TLabel
+      Left = 432
+      Top = 453
+      Width = 44
+      Height = 13
+      Caption = 'car name'
+    end
+    object Label9: TLabel
+      Left = 432
+      Top = 496
+      Width = 33
+      Height = 13
+      Caption = 'legth'
+    end
+    object Label10: TLabel
+      Left = 408
+      Top = 323
+      Width = 96
+      Height = 13
+      Caption = 'DATE OF CHECK IN '
+    end
+    object Label11: TLabel
+      Left = 632
+      Top = 48
+      Width = 37
+      Height = 13
+      Caption = 'Label11'
+    end
+    object Label12: TLabel
+      Left = 560
+      Top = 320
+      Width = 26
+      Height = 13
+      Caption = 'DAYS'
+    end
+    object DBComboBox1: TDBComboBox
+      Left = 88
+      Top = 24
+      Width = 105
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 128
+      Top = 117
+      Width = 121
+      Height = 21
+      TabOrder = 1
+      Text = 'Edit1'
+    end
+    object RadioGroup1: TRadioGroup
+      Left = 168
+      Top = 168
+      Width = 185
+      Height = 37
+      Caption = 'RadioGroup1'
+      Items.Strings = (
+        'self caterin'
+        'hotel service')
+      TabOrder = 2
+    end
+    object DBGrid1: TDBGrid
+      Left = 392
+      Top = 88
+      Width = 369
+      Height = 145
+      TabOrder = 3
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+    object Edit2: TEdit
+      Left = 72
+      Top = 320
+      Width = 121
+      Height = 21
+      TabOrder = 4
+      Text = 'Edit2'
+    end
+    object Edit3: TEdit
+      Left = 248
+      Top = 320
+      Width = 121
+      Height = 21
+      TabOrder = 5
+      Text = 'Edit3'
+    end
+    object Button1: TButton
+      Left = 75
+      Top = 448
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 6
+    end
+    object Panel2: TPanel
+      Left = 88
+      Top = 392
+      Width = 185
+      Height = 41
+      Caption = 'transport arrange'
+      TabOrder = 7
+    end
+    object Button2: TButton
+      Left = 310
+      Top = 496
+      Width = 75
+      Height = 25
+      Caption = 'Button2'
+      TabOrder = 8
+    end
+    object Edit4: TEdit
+      Left = 471
+      Top = 493
+      Width = 121
+      Height = 21
+      TabOrder = 9
+      Text = 'Edit4'
+    end
+    object RichEdit1: TRichEdit
+      Left = 616
+      Top = 339
+      Width = 97
+      Height = 54
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Lines.Strings = (
+        'RichEdit1')
+      ParentFont = False
+      TabOrder = 10
+      Zoom = 100
+    end
+    object RichEdit2: TRichEdit
+      Left = 664
+      Top = 477
+      Width = 89
+      Height = 32
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Lines.Strings = (
+        'RichEdit2')
+      ParentFont = False
+      TabOrder = 11
+      Zoom = 100
+    end
+    object Button3: TButton
+      Left = 192
+      Top = 504
+      Width = 75
+      Height = 25
+      Caption = 'Button3'
+      TabOrder = 12
+    end
+    object BTNGOFLIGHTS: TButton
+      Left = 672
+      Top = 536
+      Width = 75
+      Height = 25
+      Caption = 'BTNGOFLIGHTS'
+      TabOrder = 13
+    end
+  end
+end

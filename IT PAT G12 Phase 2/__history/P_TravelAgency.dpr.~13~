@@ -1,0 +1,32 @@
+program P_TravelAgency;
+
+uses
+  Vcl.Forms,
+  U_LoginOrCreateAccount in 'U_LoginOrCreateAccount.pas' {frmLoginOrCreate},
+  U_BookingLocationACcomodationTransport in 'U_BookingLocationACcomodationTransport.pas' {Accounts},
+  U_FlightTicketbook in 'U_FlightTicketbook.pas' {frmflights},
+  U_LoginAccount in 'U_LoginAccount.pas' {frmLogin},
+  U_PersonalDetails in 'U_PersonalDetails.pas' {Form2},
+  U_ClienteHomepage in 'U_ClienteHomepage.pas' {Form1},
+  U_AdminHomepage in 'U_AdminHomepage.pas' {frmAdminhomepage},
+  U_FlightdataAdmin in 'U_FlightdataAdmin.pas' {frmFlightData},
+  U_AdminAccomodaionData in 'U_AdminAccomodaionData.pas' {Form3},
+  U_AdminClientAccounts in 'U_AdminClientAccounts.pas' {FrmClienteAdmin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmLoginOrCreate, frmLoginOrCreate);
+  Application.CreateForm(TAccounts, Accounts);
+  Application.CreateForm(Tfrmflights, frmflights);
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmAdminhomepage, frmAdminhomepage);
+  Application.CreateForm(TfrmFlightData, frmFlightData);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TFrmClienteAdmin, FrmClienteAdmin);
+  Application.Run;
+end.

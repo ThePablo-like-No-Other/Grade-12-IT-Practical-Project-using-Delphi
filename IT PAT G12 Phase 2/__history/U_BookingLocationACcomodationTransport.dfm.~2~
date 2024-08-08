@@ -1,0 +1,370 @@
+object Accounts: TAccounts
+  Left = 0
+  Top = 0
+  Caption = 'Accounts'
+  ClientHeight = 705
+  ClientWidth = 1021
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 76
+    Width = 53
+    Height = 16
+    Caption = 'Country :'
+    Color = clCream
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 46
+    Top = 146
+    Width = 159
+    Height = 19
+    Caption = 'Accomidation Details'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 176
+    Width = 120
+    Height = 18
+    Caption = 'Amout of Bedrooms:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Trebuchet MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 320
+    Width = 208
+    Height = 13
+    Caption = 'select booking from seen Accomodation'
+  end
+  object lbLocaldes: TLabel
+    Left = 8
+    Top = 104
+    Width = 104
+    Height = 16
+    Caption = 'LOCAL Destination'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 187
+    Width = 120
+    Height = 13
+    Caption = '-----------------------------'
+  end
+  object Label11: TLabel
+    Left = 46
+    Top = 151
+    Width = 150
+    Height = 13
+    Caption = '_________________________'
+  end
+  object Label10: TLabel
+    Left = 30
+    Top = 408
+    Width = 105
+    Height = 13
+    Caption = 'Date of Arrival/Bookig'
+  end
+  object Label12: TLabel
+    Left = 54
+    Top = 428
+    Width = 72
+    Height = 13
+    Caption = '(DD/MM/YY)'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 175
+    Top = 406
+    Width = 87
+    Height = 13
+    Caption = 'Amount for Nights'
+  end
+  object Label15: TLabel
+    Left = 192
+    Top = 423
+    Width = 60
+    Height = 13
+    Caption = 'you will Stay'
+  end
+  object Panel2: TPanel
+    Left = 30
+    Top = 522
+    Width = 275
+    Height = 89
+    Caption = 'Panel2'
+    TabOrder = 18
+  end
+  object btnlocalTrans: TButton
+    Left = 508
+    Top = 450
+    Width = 106
+    Height = 59
+    Caption = 'Book Rental Vehicle'
+    TabOrder = 15
+  end
+  object DBcmbCountryDest: TDBComboBox
+    Left = 67
+    Top = 74
+    Width = 145
+    Height = 21
+    TabOrder = 0
+  end
+  object DBcmblocaldestination: TDBComboBox
+    Left = 128
+    Top = 103
+    Width = 145
+    Height = 21
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 392
+    Top = 24
+    Width = 609
+    Height = 281
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object rdgTypeAccomodation: TRadioGroup
+    Left = 8
+    Top = 213
+    Width = 185
+    Height = 61
+    Caption = 'Type of Accomodation'
+    Items.Strings = (
+      'Geust House(self Catering)'
+      'Hotel '
+      'Bed and Breakfasts')
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 281
+    Top = 70
+    Width = 75
+    Height = 25
+    Caption = 'continue'
+    TabOrder = 4
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 134
+    Top = 176
+    Width = 41
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 5
+    Value = 0
+  end
+  object Button5: TButton
+    Left = 24
+    Top = 280
+    Width = 195
+    Height = 25
+    Caption = 'Search For Accomodation'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 459
+    Top = 312
+    Width = 480
+    Height = 52
+    TabOrder = 7
+  end
+  object ComboBox2: TComboBox
+    Left = 30
+    Top = 339
+    Width = 145
+    Height = 21
+    TabOrder = 8
+    Text = 'ComboBox2'
+  end
+  object Button6: TButton
+    Left = 192
+    Top = 339
+    Width = 201
+    Height = 25
+    Caption = 'See Brochure for selected accomodation'
+    TabOrder = 9
+  end
+  object edtDateBooking: TEdit
+    Left = 22
+    Top = 444
+    Width = 121
+    Height = 21
+    TabOrder = 10
+  end
+  object btnNXtAccom: TButton
+    Left = 281
+    Top = 101
+    Width = 75
+    Height = 25
+    Caption = 'continue'
+    TabOrder = 11
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 202
+    Top = 444
+    Width = 41
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 12
+    Value = 0
+  end
+  object Button1: TButton
+    Left = 31
+    Top = 484
+    Width = 181
+    Height = 25
+    Caption = 'Get calculated cost of intire stay'
+    TabOrder = 13
+  end
+  object Panel1: TPanel
+    Left = 620
+    Top = 379
+    Width = 393
+    Height = 161
+    TabOrder = 14
+    object Label6: TLabel
+      Left = 232
+      Top = -97
+      Width = 31
+      Height = 13
+      Caption = 'Label6'
+    end
+    object lbl16: TLabel
+      Left = 207
+      Top = 16
+      Width = 161
+      Height = 13
+      Caption = 'Please Enter the amount of Days '
+    end
+    object Label7: TLabel
+      Left = 216
+      Top = 35
+      Width = 145
+      Height = 13
+      Caption = 'you will be Renting the vehicle'
+    end
+    object rdgvehicles: TRadioGroup
+      Left = 0
+      Top = 8
+      Width = 201
+      Height = 145
+      Caption = 'Avaible Vehicles'
+      Items.Strings = (
+        'Toyotay Corollla'
+        'MercedesBenz C'
+        'Audi A4'
+        'BMW 3 Series'
+        'Toyota Fortuna'
+        'MercedesBenz GLC'
+        'Audi Q5'
+        'BMW X5')
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 240
+      Top = 82
+      Width = 89
+      Height = 25
+      Caption = 'Book Rental Car'
+      TabOrder = 1
+    end
+    object Edit1: TEdit
+      Left = 216
+      Top = 128
+      Width = 153
+      Height = 21
+      TabOrder = 2
+      Text = 'qoutation of rental cost'
+    end
+    object SpinEdit3: TSpinEdit
+      Left = 256
+      Top = 54
+      Width = 65
+      Height = 22
+      MaxValue = 0
+      MinValue = 0
+      TabOrder = 3
+      Value = 0
+    end
+  end
+  object Button3: TButton
+    Left = 408
+    Top = 648
+    Width = 177
+    Height = 49
+    Caption = 'Go and book flight Tickets'
+    TabOrder = 16
+  end
+  object Panel3: TPanel
+    Left = 281
+    Top = 396
+    Width = 137
+    Height = 49
+    Caption = 'Price per night : R.00'
+    TabOrder = 19
+  end
+  object Panel4: TPanel
+    Left = 0
+    Top = 8
+    Width = 386
+    Height = 56
+    Caption = 'Panel4'
+    TabOrder = 20
+  end
+  object Button7: TButton
+    Left = 47
+    Top = 532
+    Width = 250
+    Height = 69
+    Caption = 'Finalize Bookings'
+    TabOrder = 17
+  end
+end

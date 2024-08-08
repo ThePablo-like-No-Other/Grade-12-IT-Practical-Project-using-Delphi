@@ -1,0 +1,35 @@
+unit U_FlightTicketbook;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.DBCtrls,
+  Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls;
+
+type
+  Tfrmflights = class(TForm)
+    Panel1: TPanel;
+    DBGrid1: TDBGrid;
+    Label1: TLabel;
+    DBNavigator1: TDBNavigator;
+    DBComboBox1: TDBComboBox;
+    Edit1: TEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    ComboBox1: TComboBox;
+    btnvisa: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmflights: Tfrmflights;
+
+implementation
+
+{$R *.dfm}
+
+end.

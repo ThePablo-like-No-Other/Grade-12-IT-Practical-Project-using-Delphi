@@ -1,0 +1,67 @@
+unit U_BookingLocationACcomodationTransport;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.ComCtrls,
+  Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Samples.Spin,
+  Vcl.Imaging.jpeg, Vcl.Buttons;
+
+type
+  TAccounts = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    rdgTypeAccomodation: TRadioGroup;
+    DBGrid1: TDBGrid;
+    Label5: TLabel;
+    lbLocaldes: TLabel;
+    Button4: TButton;
+    SpinEdit1: TSpinEdit;
+    Label4: TLabel;
+    Button5: TButton;
+    Label11: TLabel;
+    DBNavigator1: TDBNavigator;
+    Button6: TButton;
+    Label10: TLabel;
+    edtDateBooking: TEdit;
+    Label12: TLabel;
+    btnNXtAccom: TButton;
+    SpinEdit2: TSpinEdit;
+    Label14: TLabel;
+    Label15: TLabel;
+    Button1: TButton;
+    Panel1: TPanel;
+    rdgvehicles: TRadioGroup;
+    btnlocalTrans: TButton;
+    Label6: TLabel;
+    lbl16: TLabel;
+    Label7: TLabel;
+    Button2: TButton;
+    Button3: TButton;
+    Button7: TButton;
+    SpinEdit3: TSpinEdit;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Image1: TImage;
+    BitBtn1: TBitBtn;
+    ComboBox1: TComboBox;
+    ComboBox3: TComboBox;
+    ComboBox2: TComboBox;
+    Button8: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Accounts: TAccounts;
+
+implementation
+
+{$R *.dfm}
+
+end.

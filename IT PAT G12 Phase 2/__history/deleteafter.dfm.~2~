@@ -1,0 +1,39 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Password="";Data Source=C:\User' +
+      's\Family\Desktop\IT PAT G12 Phase 2\TravelAgency(PAT).mdb;Mode=S' +
+      'hare Deny None;Extended Properties="";Persist Security Info=True' +
+      ';Jet OLEDB:System database="";Jet OLEDB:Registry Path="";Jet OLE' +
+      'DB:Database Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Databa' +
+      'se Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:' +
+      'Global Bulk Transactions=1;Jet OLEDB:New Database Password="";Je' +
+      't OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=' +
+      'False;Jet OLEDB:Don'#39't Copy Locale on Compact=False;Jet OLEDB:Com' +
+      'pact Without Replica Repair=False;Jet OLEDB:SFP=False'
+    ConnectOptions = coAsyncConnect
+    CursorLocation = clUseServer
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 8
+    Top = 16
+  end
+  object ADOTable1: TADOTable
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Password="";Data Source=C:\User' +
+      's\Family\Desktop\IT PAT G12 Phase 2\TravelAgency(PAT).mdb;Persis' +
+      't Security Info=True'
+    CursorType = ctStatic
+    TableDirect = True
+    TableName = 'Client Accounts'
+    Left = 80
+    Top = 56
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOTable1
+    Left = 160
+    Top = 96
+  end
+end

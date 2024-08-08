@@ -1,0 +1,13 @@
+﻿[DataSource1]
+Coordinates=0,0,89,36
+
+[ADOConnection1]
+Coordinates=208,1,114,36
+
+[ADOTable1]
+Coordinates=10,10,81,234
+Visible=True
+
+[]
+Coordinates=89,253,91,36
+

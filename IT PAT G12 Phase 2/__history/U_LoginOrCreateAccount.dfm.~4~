@@ -1,0 +1,133 @@
+object frmLoginOrCreate: TfrmLoginOrCreate
+  Left = 0
+  Top = 0
+  Caption = 'frmLoginOrCreate'
+  ClientHeight = 491
+  ClientWidth = 688
+  Color = clGradientActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 8
+    Top = 8
+    Width = 609
+    Height = 105
+  end
+  object Label1: TLabel
+    Left = 183
+    Top = 187
+    Width = 24
+    Height = 13
+    Caption = 'Email'
+  end
+  object Label2: TLabel
+    Left = 196
+    Top = 224
+    Width = 27
+    Height = 13
+    Caption = 'Name'
+  end
+  object Label3: TLabel
+    Left = 320
+    Top = 224
+    Width = 42
+    Height = 13
+    Caption = 'Surname'
+  end
+  object Label4: TLabel
+    Left = 183
+    Top = 328
+    Width = 40
+    Height = 13
+    Caption = 'passwrd'
+  end
+  object Label5: TLabel
+    Left = 184
+    Top = 280
+    Width = 58
+    Height = 13
+    Caption = 'ID Number :'
+  end
+  object Panel1: TPanel
+    Left = 160
+    Top = 135
+    Width = 225
+    Height = 33
+    Caption = 'craete New account'
+    TabOrder = 0
+  end
+  object edtEmail: TEdit
+    Left = 264
+    Top = 184
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'edtEmail'
+  end
+  object edtname: TEdit
+    Left = 168
+    Top = 243
+    Width = 81
+    Height = 21
+    TabOrder = 2
+  end
+  object edtsSurname: TEdit
+    Left = 296
+    Top = 243
+    Width = 89
+    Height = 21
+    TabOrder = 3
+  end
+  object pnleLoginStart: TPanel
+    Left = 168
+    Top = 400
+    Width = 225
+    Height = 25
+    Caption = 'Already have a account Click Here'
+    TabOrder = 4
+  end
+  object btnCreate: TButton
+    Left = 240
+    Top = 360
+    Width = 97
+    Height = 25
+    Caption = 'Create Account'
+    TabOrder = 5
+  end
+  object Panel2: TPanel
+    Left = 424
+    Top = 136
+    Width = 193
+    Height = 289
+    Caption = 'Panel2'
+    TabOrder = 6
+  end
+  object Panel3: TPanel
+    Left = 8
+    Top = 136
+    Width = 146
+    Height = 289
+    Caption = 'Panel3'
+    TabOrder = 7
+  end
+  object Edit1: TEdit
+    Left = 241
+    Top = 333
+    Width = 121
+    Height = 21
+    TabOrder = 8
+  end
+  object edtIDNo: TEdit
+    Left = 248
+    Top = 280
+    Width = 121
+    Height = 21
+    TabOrder = 9
+  end
+end
